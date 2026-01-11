@@ -1,4 +1,5 @@
 import { AlertTriangle, CheckCircle, DollarSign, Calendar } from "lucide-react";
+import React from 'react';  
 
 export default function CashLine() {
   const cashToday = 18450;
