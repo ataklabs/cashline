@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Settings, TrendingUp, TrendingDown, Calendar, DollarSign, Users, Receipt, ChevronRight, AlertTriangle, CheckCircle, Clock } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import StatusOverview from "@/components/cashline/StatusOverview";
-import ForecastTimeline from "@/components/cashline/ForecastTimeline";
-import PayrollSection from "@/components/cashline/PayrollSection";
-import SuppliersSection from "@/components/cashline/SuppliersSection";
-import BasSection from "@/components/cashline/BasSection";
-import SetupPanel from "@/components/cashline/SetupPanel";
+import StatusOverview from '../components/cashline/StatusOverview.jsx';
+import ForecastTimeline from '../components/cashline/ForecastTimeline.jsx';
+import PayrollSection from '../components/cashline/PayrollSection.jsx';
+import SuppliersSection from '../components/cashline/SuppliersSection.jsx';
+import BasSection from '../components/cashline/BasSection.jsx';
+import SetupPanel from '../components/cashline/SetupPanel.jsx';
 
 const DEFAULT_BUSINESS_DATA = {
   currentCash: 18500,
